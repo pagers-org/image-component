@@ -4,7 +4,7 @@ const ImageRotator = () => {
   const [tiltAngle, setTiltAngle] = useState(0);
 
   useEffect(() => {
-    const handleTilt = (event) => {
+    const handleTilt = (event:any) => {
       const { beta, gamma } = event.accelerationIncludingGravity;
       const angle = Math.atan2(beta, gamma) * (180 / Math.PI);
       setTiltAngle(angle);
