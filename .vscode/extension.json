@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "aaron-bond.better-comments",
+    "dbaeumer.vscode-eslint",
+    "eliostruyf.vscode-typescript-exportallmodules",
+    "eamodio.gitlens",
+    "esbenp.prettier-vscode",
+    "styled-components.vscode-styled-components",
+    "streetsidesoftware.code-spell-checker",
+    "stylelint.vscode-stylelint"
+  ]
+}
